@@ -15,5 +15,5 @@ public class PalindromeNumber {
     }
 }
 
-// The .equals part at the end basically returns true or false, thats the logic in this question.
+// The .equals part at the end basically returns true or false, that's the logic in this question.
 // return type then true if the strNum reverse equals strNum
