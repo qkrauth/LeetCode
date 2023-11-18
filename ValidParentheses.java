@@ -39,4 +39,4 @@ public class ValidParentheses {
 // Iterate through the string and if the i is an opening bracket we push it onto the stack
 // If i is a closing bracket we check for the following: If the stack is empty return false cuz there
 // is nothing to match. pop the top element from the stack and see if it matches the current closing bracket
-// runtime is O(n) stack operations are constant time and (n) is String length we are iterating
+// runtime is O(n) stack operations are constant time and (n) is String length we are iterating.
