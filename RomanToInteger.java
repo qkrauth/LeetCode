@@ -3,7 +3,7 @@
 // Because the one is before the five we subtract it making four. The same principle applies to the number nine,
 // which is written as IX. There are six instances where subtraction is used
 
-//Given a roman numeral, convert it to an integer.
+// Given a roman numeral, convert it to an integer.
 
 import java.util.HashMap;
 
