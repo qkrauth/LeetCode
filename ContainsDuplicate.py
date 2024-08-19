@@ -14,7 +14,7 @@ class Solution:
 
         for num in nums:
             if num in data:
-                return True
+                return True # checking if the current num is inside the set
             else:
                 data.add(num)
         return False

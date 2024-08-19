@@ -7,6 +7,7 @@
 # Input: s = "anagram", t = "nagaram"
 # Output: true
 
+# String manipulation
 class Solution:
     def isAnagram(self, s, t):
         if len(s) != len(t):

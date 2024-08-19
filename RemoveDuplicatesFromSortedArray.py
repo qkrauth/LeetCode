@@ -5,6 +5,7 @@
 # The remaining elements of nums are not important as well as the size of nums.
 # Return k.
 
+# Two pointer technique
 class Solution():
     def removeDuplicates(self, nums):
         if len(nums) == 0:

@@ -5,6 +5,7 @@
 
 # Given a roman numeral, convert it to an integer.
 
+# String manipulation
 class Solution():
     def romanToInt(self, s):
 

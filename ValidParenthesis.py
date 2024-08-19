@@ -13,6 +13,7 @@
 # Input: s = "()[]{}"
 # Output: true
 
+# Stack based problem
 class Solution:
     def isValid(self, s):
         # lets use a STACK to keep track of opening brackets. A stack is good because it has LIFO properties
@@ -25,7 +26,7 @@ class Solution:
             if char in bracket_mapping.values(): # checks if char is an opening bracket
                 stack.append(char)
             elif char in bracket_mapping.keys(): # checks if char is a closing bracket
-                if not stack or stack.pop() != bracket_mapping[char]: #.pop removes and returns value at the LAST index (-1)
+                if not stack or stack.pop() != bracket_mapping[char]: # .pop removes and returns value at the LAST index (-1)
                     return False 
             else:
                 return False
@@ -35,6 +36,6 @@ class Solution:
 
 my_solution = Solution()
 
-result = my_solution.isValid("()[]{}")
+result = my_solution.isValid("(){}([])")
 
 print(result)

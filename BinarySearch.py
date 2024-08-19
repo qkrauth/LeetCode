@@ -8,6 +8,7 @@
 # Output: 4
 # Explanation: 9 exists in nums and its index is 4
 
+# this is LINEAR SEARCH
 class Solution:
     def search(self, nums, target):
 
@@ -27,7 +28,7 @@ print(answer)
 
 
 # HERE IS BINARY SEARCH ALGORITHM CODED FOR THIS PROBLEM
-
+# divide the search interval in half repeatedly
 
 class Solution:
     def binarySearch(self, nums, target):
@@ -36,14 +37,14 @@ class Solution:
         right = len(nums) - 1
 
         while left <= right:
-            mid = (left + right) // 2
+            mid = (left + right) // 2 # finds the middle index
 
             if nums[mid] == target:
                 return mid
             elif nums[mid] < target:
-                left = mid + 1
+                left = mid + 1 # moves to the right half
             else:
-                right = mid - 1
+                right = mid - 1 # moves to the left half
         
         return -1
     
