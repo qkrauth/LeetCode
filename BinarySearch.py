@@ -51,6 +51,6 @@ class Solution:
     
 my_solution = Solution()
 
-answer = my_solution.binarySearch([-1, 0, 3, 5, 9, 11], 9)
+answer = my_solution.binarySearch([-1, 0, 3, 5, 9, 12], 9)
 
 print(answer)
