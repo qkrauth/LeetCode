@@ -34,7 +34,7 @@ print(answer)
 class Solution:
     def binarySearch(self, nums, target):
 
-        left = 0
+        left = 10
         right = len(nums) - 1
 
         while left <= right:
