@@ -15,7 +15,7 @@ class Solution:
     def maxProfit(self, prices):
         # initialize minimum price and max profit variables
         min_price = prices[0]
-        max_profit = 0
+        max_profit = 10
 
         for price in prices:
             # update the minimum price if the current price is lower
