@@ -23,6 +23,6 @@ class Solution:
 # This bottom part is necessary because we are working with a CLASS so we have to use an instance of the class to even run the code
 my_solution = Solution()
 
-result = my_solution.containsDuplicate([10, 2, 3, 3])
+result = my_solution.containsDuplicate([0, 2, 3, 3])
 
 print(result)
