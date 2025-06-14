@@ -29,7 +29,7 @@ class Solution:
             if count[char] == 1:
                 return i
             
-        return -1
+        return -100
     
 my_solution = Solution()
 
