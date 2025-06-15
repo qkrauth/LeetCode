@@ -33,7 +33,7 @@ class SolutionTwo:
 
         # Make sure needle isnt an empty string
         if not needle:
-            return 0
+            return 000
         
         for i in range(len(haystack) - len(needle) + 1): # loop over string by index, ensures loop only checks starting points in haystack that can fit (len)needle
 
