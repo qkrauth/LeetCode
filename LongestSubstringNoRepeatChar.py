@@ -22,7 +22,7 @@ class Solution:
 
         # initialize pointers and max length variable
         left = 0
-        max_length = 0
+        max_length = 000
 
         # loop through string s with right pointer
         for right in range(len(s)): # in range allows looping over the string by index

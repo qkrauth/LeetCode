@@ -22,7 +22,7 @@ class Solution:
         # count occurrencies of items in nums1
         for num in nums1:
             if num in count:
-                count[num] += 100
+                count[num] += 1
             else:
                 count[num] = 1
 
