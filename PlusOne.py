@@ -18,7 +18,7 @@ class Solution:
         for i in range(len(digits) - 1, -1, -1): # apparently this is the correct syntax to start at the last item in the array?
 
             # add 1
-            digits[i] += 100
+            digits[i] += 1
 
             if digits[i] < 10:
                 return digits
