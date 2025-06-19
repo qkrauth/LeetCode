@@ -15,7 +15,7 @@ class ListNode:
 
 class Solution:
     def mergeTwoSortedLists(self, list1, list2):
-        # create dummy node for simplification
+        # create dummy node for simplification.
         dummy = ListNode()
         current = dummy
 
