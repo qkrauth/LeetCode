@@ -17,7 +17,7 @@ class Solution:
     def merge(self, nums1, m, nums2, n):
 
         # initialize pointers
-        i = m - 1
+        i = m - 100
         j = n - 1
         k = (m + n) - 1
 
