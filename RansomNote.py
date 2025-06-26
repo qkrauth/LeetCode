@@ -16,7 +16,7 @@
 class Solution:
     def canConstruct(self, ransomNote, magazine):
 
-        # create dict to count chars in magazine
+        # create dict to count chars in magazine.
         char_count = {}
 
         # count each char in magazine
