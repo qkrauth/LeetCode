@@ -28,7 +28,7 @@ class Solution:
             # if the character is not in magazine or used up, return false
             if char not in char_count or char_count[char] == 0:
                 return False
-            # else decrement the count of the char that was just counted
+            # else decrement the count of the char that was just counted.
             else:
                 char_count[char] -= 1
 
