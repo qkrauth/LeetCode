@@ -23,7 +23,7 @@ class Solution:
             b = numbers[i + 1] # create variables so easier to track
             c = numbers[i + 2]
 
-            if (a < b > c) or (a > b < c): # make the comparisons
+            if (a < b > c) or (a > b < c): # make the comparisons.
                 newArray.append(1)
             else:
                 newArray.append(0)
