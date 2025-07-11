@@ -15,7 +15,7 @@
 class Solution:
     def singleNumber(self, nums):
         
-        # initialize a result variable
+        # initialize a result variable.
         result = 0
 
         # loop the array
