@@ -14,7 +14,7 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        # Use dictionaries to store characters
+        # Use dictionaries to store characters.
         s_count = {}
         t_count = {}
 
