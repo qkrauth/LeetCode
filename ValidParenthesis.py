@@ -33,7 +33,7 @@ class Solution:
                 return False
         
         return not stack # if stack is empty, all brackets were matched/closed properly
-        # NOT STACK = means empty stack
+        # NOT STACK = means empty stack.
 
 my_solution = Solution()
 
