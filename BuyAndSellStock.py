@@ -21,7 +21,7 @@ class Solution:
             # update the minimum price if the current price is lower
             min_price = min(min_price, price)
 
-            # update the profit if selling at current price is best
+            # update the profit if selling at current price is best.
             max_profit = max(max_profit, price - min_price)
         
         return max_profit
