@@ -14,7 +14,7 @@
 class Solution:
     def firstUnique(self, s):
 
-        # create a dict to count occurances.
+        # create a dict to count occurances
         count = {}
 
         # loop to count all characters
