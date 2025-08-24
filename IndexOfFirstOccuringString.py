@@ -13,7 +13,7 @@
 
 # Input: haystack = "leetcode", needle = "leeto"
 # Output: -1
-# Explanation: "leeto" did not occur in "leetcode", so we return -1.
+# Explanation: "leeto" did not occur in "leetcode", so we return -1
 
 class Solution:
     def firstStr(self, haystack, needle):
