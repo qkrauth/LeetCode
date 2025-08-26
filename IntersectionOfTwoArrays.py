@@ -11,7 +11,7 @@
 
 # Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 # Output: [4,9]
-# Explanation: [9,4] is also accepted.
+# Explanation: [9,4] is also accepted
 
 class Solution:
     def intersect(self, nums1, nums2):
