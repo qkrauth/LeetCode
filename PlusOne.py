@@ -26,7 +26,7 @@ class Solution:
             # otherwise set it to 0 and continue (add to the next element)
             digits[i] = 0
 
-        # if all digits are 9 then add a 1 to the start.
+        # if all digits are 9 then add a 1 to the start
         return [1] + digits
 
 my_solution = Solution()
