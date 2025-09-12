@@ -14,7 +14,7 @@ class Solution():
         
         k = 1
 
-        for i in range(1, len(nums)): # we use the "in range" for loop to access two different array indicies.
+        for i in range(1, len(nums)): # we use the "in range" for loop to access two different array indicies
             if nums[i] != nums[i - 1]:
                 nums[k] = nums[i]
                 k += 1
