@@ -6,7 +6,7 @@
 
 # Example
 
-# For numbers = [1, 2, 1, 3, 4], the output should be solution(numbers) = [1, 1, 0]
+# For numbers = [1, 2, 1, 3, 4], the output should be solution(numbers) = [1, 1, 0].
 
 # (numbers[0], numbers[1], numbers[2]) = (1, 2, 1) is a zigzag, because 1 < 2 > 1;
 # (numbers[1], numbers[2] , numbers[3]) = (2, 1, 3) is a zigzag, because 2 > 1 < 3;
