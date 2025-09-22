@@ -34,7 +34,7 @@ class Solution:
 
 # in the loop we create a temp value "next_node" to avoid losing the Reference
 # we REVERSE the direction of the pointer by setting "current.next" to "previous"
-# the loop continues until "current" becomes None which indicates we have reached the end of the original list.
+# the loop continues until "current" becomes None which indicates we have reached the end of the original list
     
 my_solution = Solution()
 
